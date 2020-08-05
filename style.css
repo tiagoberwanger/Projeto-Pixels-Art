@@ -1,0 +1,63 @@
+body {
+  background-size: cover;
+}
+
+h1 {
+  transform: translateX(35%);
+  font-family: 'Finger Paint', cursive;
+  font-size: 3em;
+
+}
+
+.layout {
+  transform: translateX(40%);
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0 10px 80px;
+}
+
+.board {
+ margin-left: 13px;
+}
+
+.color {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-left: -5px;
+}
+
+.bgcolorBlack {
+  background-color: black;
+}
+
+.bgcolorRed {
+  background-color: red;
+}
+
+.bgcolorGreen {
+  background-color: green;
+}
+
+.bgcolorPurple {
+  background-color: purple;
+}
